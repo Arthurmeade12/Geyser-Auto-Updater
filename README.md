@@ -9,3 +9,5 @@ Requirements:
 Planned:
 - Floodgate support
   - CMD args to specify between building Geyser and Floodgate
+- Move config into it's own file
+- 
