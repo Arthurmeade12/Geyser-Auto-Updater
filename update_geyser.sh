@@ -11,14 +11,16 @@ GREEN=`tput setaf 2`
 YELLOW=`tput setaf 3`
 UNDERLINED=`tput smul`
 BOLD=`tput bold`
+#
+### Config ###
+#
 geyser_path=~/Geyser ###  !!! VERY IMPORTANT !!! Make sure not to put a slash at the end. This will break build scripts.
-geyser_sc=$geyser_path/Geyser
-floodgate_sc=$geyser_path/Floodgate/
-block_java_players=$geyser_path/GeyserBlockJavaPlayers/
-geyser_connect_sc=$geyser_path/GeyserConnect/
-geyser_addons_sc=$geyser_path/GeyserAddons/
+geyser_sc=$geyser_path/Geyser ## Must be inside of $geyser_path
+floodgate_sc=$geyser_path/Floodgate/ ## Must be inside of $geyser_path
+block_java_players=$geyser_path/GeyserBlockJavaPlayers/ ## Must be inside of $geyser_path
 output=~/Desktop/Geyser-Build-Output ###  !!! VERY IMPORTANT !!! Make sure not to put a slash at the end.  This will break build scripts.
-export JAVA_HOME=`/usr/libexec/java_home -v 11` ; java -version
+##############
+export JAVA_HOME=`/usr/libexec/java_home -v 16` ; java -version
 info(){
     echo "$BLUE$BOLD==>$RESET$BOLD $1$RESET"
 }
