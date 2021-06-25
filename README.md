@@ -1,5 +1,6 @@
 # Geyser-Auto-Updater
 A little bash script to auto update geyser by building it
+
 Requirements:
 - Git
 - Maven
