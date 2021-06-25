@@ -5,3 +5,6 @@ Requirements:
 - Maven
 - JDK 16 +
 - Internet Connection
+Planned:
+- Floodgate support
+  - CMD args to specify between building Geyser and Floodgate
